@@ -74,6 +74,27 @@
 
     </script>
 
+---------------------------------------------------------------------
+      
+<div id="mycontainer"></div>
+    <!-- // Create elements dynamically- -->
+
+ 
+  <button id="clickbutton">Click</button>
+
+    <script>
+
+    const button=document.getElmentById("clickbutton");
+    const container=document.getElmentById("my-container");
+
+    button.addEventListener("click",()=>{
+      const el=document.createElement("hi");
+      el.innerText="Satwik Dubey";
+      container.appendChild(el);
+    })
+
+    </script>
+
 
     
   </body>
